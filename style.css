@@ -1,0 +1,147 @@
+body{
+  background-image: url("https://drive.google.com/uc?view&id=1MBVIsxpyVuO_c45voe99b1SoqJYT11ty");
+  background-attachment: auto;
+  padding-bottom: 30rem;
+}
+p{
+  color: white;
+}
+.font{
+  width: 60vw;
+  position: relative;
+  margin-left: 18vw;
+  margin-top: 5vw;
+  animation-name: sulthan;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+@keyframes sulthan {
+  0% {margin-top: 5vw;}
+  50%{margin-top: 6vw;}
+  100%{margin-top: 5vw;}
+}
+.card-1 {
+  position: absolute;
+  border-radius: 20px;
+  width: 20vw;
+  box-shadow: 0 0px 12px white;
+  background-color: black;
+  margin-left: 5vw;
+  margin-top: 8vw;
+  margin-bottom: 100vw;
+}
+.card-2{
+  position: absolute;
+  border-radius: 20px;
+  width: 20vw;
+  box-shadow: 0 0px 12px white;
+  background-color: black;
+  margin-left: 28vw;
+  margin-top: 8vw;
+  margin-bottom: 5%;
+}
+.card-3{
+  position: absolute;
+  border-radius: 20px;
+  width: 20vw;
+  box-shadow: 0 0px 12px white;
+  background-color: black;
+  margin-left: 51vw;
+  margin-top: 8vw;
+  margin-bottom: 5%;
+}
+.card-4{
+  position: absolute;
+  border-radius: 20px;
+  width: 20vw;
+  box-shadow: 0 0px 12px white;
+  background-color: black;
+  margin-left: 74vw;
+  margin-top: 8vw;
+  margin-bottom: 5%;
+}
+.card-1:hover{
+  background-image:linear-gradient( white,rgb(94, 94, 94));
+}
+.card-2:hover{
+  background-image:linear-gradient( white,rgb(94, 94, 94));
+}
+.card-3:hover{
+  background-image:linear-gradient( white,rgb(94, 94, 94));
+}
+.card-4:hover{
+  background-image:linear-gradient( white,rgb(94, 94, 94));
+}
+.card-img-top {
+  border-radius: 20px;
+  padding: 10px;
+}
+a {
+  width: 15vw;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: goldenrod;
+  color: black;
+  padding: 7px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2%;
+  margin-left:7%;
+}
+a:hover{
+  color: brown;
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .kartu {
+   opacity: 70%;
+  }
+  .card-2 {
+    position: absolute;
+    width: 75vw;
+    margin-left: 15%;
+    border-radius: 20px;
+    margin-top: 82vw;
+
+  }
+  .card-1 {
+    position: absolute;
+    width: 75vw;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 8vw;
+
+  }
+ .card-3 {
+    width: 75vw;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 156vw;
+  }
+  .card-4 {
+  width: 75vw;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 230vw;
+  }
+  .font{
+    margin-left: 0px;
+    width: 100vw;
+    animation-duration: 3s;
+  }
+
+  @keyframes sulthan {
+  0% {margin-top: 5vw;}
+  50%{margin-top: 7vw;}
+  100%{margin-top: 5vw;}
+  }
+  a{
+    margin-left: 38%;
+    font-size: 12px;
+  }
+  body{
+    padding-bottom: 25%;
+  }
